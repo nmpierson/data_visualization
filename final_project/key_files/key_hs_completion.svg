@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny" width="300" height="31" viewBox="0 0 300 31" stroke-linecap="butt" stroke-linejoin="round">
+<style>
+  path {shape-rendering: crispEdges;}
+</style>
+<g id="layer46">
+<path d="M 1 10.93 1 1 25.83 1 25.83 10.93 1 10.93 Z" fill="rgb(247, 251, 255)"/>
+<path d="M 25.83 10.93 25.83 1 50.67 1 50.67 10.93 25.83 10.93 Z" fill="rgb(229, 239, 249)"/>
+<path d="M 50.67 10.93 50.67 1 75.5 1 75.5 10.93 50.67 10.93 Z" fill="rgb(211, 228, 243)"/>
+<path d="M 75.5 10.93 75.5 1 100.33 1 100.33 10.93 75.5 10.93 Z" fill="rgb(189, 216, 236)"/>
+<path d="M 100.33 10.93 100.33 1 125.17 1 125.17 10.93 100.33 10.93 Z" fill="rgb(160, 202, 227)"/>
+<path d="M 125.17 10.93 125.17 1 150 1 150 10.93 125.17 10.93 Z" fill="rgb(126, 184, 218)"/>
+<path d="M 150 10.93 150 1 174.83 1 174.83 10.93 150 10.93 Z" fill="rgb(93, 164, 208)"/>
+<path d="M 174.83 10.93 174.83 1 199.67 1 199.67 10.93 174.83 10.93 Z" fill="rgb(64, 142, 196)"/>
+<path d="M 199.67 10.93 199.67 1 224.5 1 224.5 10.93 199.67 10.93 Z" fill="rgb(40, 119, 183)"/>
+<path d="M 224.5 10.93 224.5 1 249.33 1 249.33 10.93 224.5 10.93 Z" fill="rgb(20, 96, 167)"/>
+<path d="M 249.33 10.93 249.33 1 274.17 1 274.17 10.93 249.33 10.93 Z" fill="rgb(10, 72, 141)"/>
+<path d="M 274.17 10.93 274.17 1 299 1 299 10.93 274.17 10.93 Z" fill="rgb(8, 48, 107)"/>
+</g>
+<g id="layer47" fill="none" stroke="black" stroke-width="1">
+<path d="M 25.83 1 25.83 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 50.67 1 50.67 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 75.5 1 75.5 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 100.33 1 100.33 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 125.17 1 125.17 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 150 1 150 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 174.83 1 174.83 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 199.67 1 199.67 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 224.5 1 224.5 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 249.33 1 249.33 16.89" stroke="rgba(0,0,0,0.3)"/>
+<path d="M 274.17 1 274.17 16.89" stroke="rgba(0,0,0,0.3)"/>
+</g>
+<g id="layer48" font-family="sans-serif" font-size="12" text-anchor="middle">
+<text y="0" x="0" transform="translate(25.8333 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">75</text>
+<text y="0" x="0" transform="translate(50.6667 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">77</text>
+<text y="0" x="0" transform="translate(75.5 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">79</text>
+<text y="0" x="0" transform="translate(100.3333 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">81</text>
+<text y="0" x="0" transform="translate(125.1667 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">83</text>
+<text y="0" x="0" transform="translate(150 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">85</text>
+<text y="0" x="0" transform="translate(174.8333 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">87</text>
+<text y="0" x="0" transform="translate(199.6667 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">89</text>
+<text y="0" x="0" transform="translate(224.5 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">91</text>
+<text y="0" x="0" transform="translate(249.3333 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">93</text>
+<text y="0" x="0" transform="translate(274.1667 29.906)" font-family="sans-serif" font-size="13" text-anchor="middle" fill="#555">95</text>
+</g>
+</svg>

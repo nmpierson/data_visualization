@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        .chart-container {
+            max-width: 1600px;
+            /* border: 3px solid red; */
+            margin: 100 auto;
+            /* auto centers the div */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        svg {
+            /* border: 2px solid purple; */
+            overflow: visible;
+        }
+
+        .text-container {
+            padding: 75px;
+        }
+
+        h2 {
+            font-style: italic;
+            margin-left: 200px;
+            margin-right: 200px;
+        }
+
+        h3 {
+            font-family: serif;
+        }
+
+        .article-text {
+            font-size: 24px;
+        }
+
+        .grid-quad {
+            display: grid;
+            grid-template-columns: 700px 700px;
+            row-gap: 50px;
+            column-gap: 50px;
+        }
+
+        .popup {
+            position: absolute;
+            border: 1px solid black;
+            border-radius: 1px;
+            line-height: 1.2;
+            width: 200px;
+            background-color: white;
+            padding: 10px;
+            opacity: 0;
+        }
+
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            text-align: center;
+            /* width: 50%; */
+        }
+
+        h1 {
+            /* border: 2px solid green; */
+            font-size: 3em;
+            text-align: center;
+        }
+
+        .block-left {
+            width: 50%;
+            float: left;
+            /* margin-left: 50px;             */
+        }
+
+        .block-right {
+            width: 50%;
+            float: right;
+            /* margin-right: 0px; */
+        }
+
+        .itl {
+            font-style: italic;
+        }
+
+        .map-img {
+            width: 100%;
+        }
+
+    </style>
+    <!-- add your script blocks at the end -->
+
+</head>
+
+<body>
+    <!-- <div class="chart-container"> -->
+
+    <h1 class="headline">
+        Teen Birth Rate in the US: A Story of Stubborn Inequities
+    </h1>
+    <h2 class="headline">
+        The US teen birth rate continues to fall, reaching a record low of 16.7 per 1000 in 2019.
+        But has this improvement been felt equally across race, class, and geography?
+    </h2>
+    <div>
+        <div class="center">
+            <div ><img class="center" src='key_files/key_teen_births.svg'></img></div>
+            
+            <svg class="center" width="1250px" height="700px">
+
+            </svg>
+            <div class="popup"></div>    
+
+            </div>
+            <div class="center">
+                <div ><p class='itl'>Data: County Health Rankings at countyhealthrankings.org by the University of Wisconsin</p></div>
+                
+            </div>
+        </div>
+        
+        <div class='text-container'>
+            <p class='article-text'>The CDC <a href='https://www.cdc.gov/nchs/fastats/teen-births.htm'>recently reported</a> that the teen birth rate in the United States,
+                defined as the number of births per 1000 female population aged 15-19, continues to fall to record lows. 
+                They believe this may stem from a combination of <a href='https://www.cdc.gov/teenpregnancy/about/index.htm'>greater use 
+                of birth control as well as lower rates of sexual activity among teens.</a> Policymakers and social scientists 
+                have celebrated this trend, as teen pregnancy contributes to school dropout for parents and
+                poor socioeconomic and educational outcome for children. However, patterns of teen births in the US
+                present a study in inequalities.
+            </p>
+            <br>
+            <p class='article-text'>
+                The map of teen birth rate as a whole reveals geographic disparities, with significantly higher birth rates
+                concentrated in the South with some outlier counties in Western states. Where available (greyed out counties indicate unavailable data),
+                data disaggregated by race paints an even clearer picture. Black youth face high teen birth rates in parts of the South
+                as well as urban centers in the Midwest, while the rates for Hispanic youth are highest across the country.
+                As teen pregnancy declines, one might expect the rate of children born with low birthweights to follow suit;
+                however, the rate has remained stagnant, as risk is highest among teen mothers and mothers aged 40+.
+            </p>
+        </div>
+
+        <div class= 'chart-container'>
+            <div class='grid-quad'>
+                <div>
+                    <h3>Teen Birth Rate: Black</h3>
+                    <img src='key_files/key_teen_births_black.svg'>
+                    <img class= 'map-img' src="img_files/img_teen_birth_rate_black.svg">
+                </div>
+                <div>
+                    <h3>Teen Birth Rate: Hispanic</h3>
+                    <img src='key_files/key_teen_births_hispanic.svg'>
+                    <img class= 'map-img' src="img_files/img_teen_birth_rate_hispanic.svg">
+                </div>
+                <div>
+                    <h3>Teen Birth Rate: White</h3>
+                    <img src='key_files/key_teen_births_white.svg'>
+                    <img class= 'map-img' src="img_files/img_teen_birth_rate_white.svg">
+                </div>
+                <div>
+                    <h3>Low Birthweight (%)</h3>
+                    <img src='key_files/key_low_birthweight.svg'>
+                    <img class= 'map-img' src="img_files/img_low_birthweight.svg">  
+                </div>
+   
+            </div>
+        </div>
+
+        <div class='text-container'>
+            <p class='article-text'>Although it is not a 1:1 comparison, we note that teen birth rate maps
+                closely to rates of childhood poverty, which in turn maps in reverse to high school completion
+                and college attendance.
+
+                Finally, while unemployment trends appear disconnected from the other metrics, we may note that many
+                states see significant outmigration following K-12 completion.
+            </p>
+            <br>
+            <p class='article-text'>
+                America should not congratulate itself on a declining teen birth rate until all 
+                socioeconomic and racial/ethnic groups are able to achieve lower rates. Low-quality schooling,
+                lack of economic opportunity, unsafe neighborhood conditions, and inaccessible or unaffordable
+                reproductive health care are <a href='https://tppevidencereview.youth.gov/'>all associated with higher rates of teen birth</a>.
+                Any nation that will not improve these conditions for all of its residents is a failing nation.
+                Voters and policymakers can make a choice now to invest in breaking down these disparities, or
+                allow the status quo to prevail; the choice is ours.  
+            </p>
+        </div>
+        <div class= 'chart-container'>
+            <div class='grid-quad'>
+                <div>
+                    <h3>Children in Poverty (%)</h3>
+                    <img src='key_files/key_children_in_poverty.svg'>
+                    <img class= 'map-img' src="img_files/img_children_in_poverty.svg">
+                </div>
+                <div>
+                    <h3>High School Completion (%)</h3>
+                    <img src='key_files/key_hs_completion.svg'>
+                    <img class= 'map-img' src="img_files/img_hs_completion.svg">
+                </div>
+                <div>
+                    <h3>College Attendance (%)</h3>
+                    <img src='key_files/key_some_college.svg'>
+                    <img class= 'map-img' src="img_files/img_some_college.svg">
+                </div>
+                <div>
+                    <h3>Unemployment (%)</h3>
+                    <img src='key_files/key_unemployed.svg'>
+                    <img class= 'map-img' src="img_files/img_unemployed.svg">  
+                </div>
+   
+            </div>
+        </div>
+        <div ><p class='itl'>Maps by Nicholas Pierson, 2021</p></div>
+    </div>
+    
+</body>
+
+
+<!-- we're using d3 version 6 (the latest version) for all out work -->
+<script src="https://d3js.org/d3.v6.min.js"></script>
+
+<!-- load topojson script -->
+<script src="https://unpkg.com/topojson@3"></script>
+
+<script>
+    console.log({ d3 })
+    console.log({ topojson })
+
+    //Key attributes: % Excessive Drinking, 
+
+    // //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+    Promise.all([ //waits for all the data to load, then when loaded will return it all in one array called res
+        // d3.json('county-topo-3.json'),
+        d3.json('data_files/data_teen_births.json'),
+    ])
+        .then(ready)
+        .catch((err) => {
+            console.log(err);
+        });
+
+    function ready(res) {
+        // console.log(res[0])
+        let raw = res[0]
+
+        let county = topojson.feature(raw, raw.objects.county);
+        let state = topojson.feature(raw, raw.objects.state);
+
+        let width = 1250;
+        let height = 700;
+
+        console.log(county, state)
+
+        let svg = d3.select("body").select("svg")
+
+        let myProjection = d3.geoAlbersUsa()
+            .fitSize([width, height], county)
+
+        //path function
+        let path = d3.geoPath()
+            .projection(myProjection)
+
+        let innerlines = topojson.mesh(raw, raw.objects.state, function (a, b) {
+            return a != b;
+        });
+
+        // let colors = d3.Blues()
+
+        svg
+            .selectAll(".states")
+            .data(state.features)
+            .join("path")
+            .attr("d", path)
+            .style("fill", "#eee")
+            .style("stroke", "none")
+            .style("pointer-events", "none")
+
+
+        let states = svg
+            .append("path")
+            .attr("d", path(innerlines))
+            .style("fill", "none")
+            .style("stroke", "#333")
+            .style("stroke-width", 1)
+            .style("pointer-events", "none")
+
+        // let scaleFunction = d3.scaleSqrt()
+        //     .domain([0, 100000])
+        //     .range([0, 15])
+
+        //Geo_QName = county AND state
+
+        let counties = svg
+            .selectAll(".counties")
+            .data(county.features)
+            .join("path")
+            .attr("d", path)
+
+            .attr("class", function (d) {return "counties p-" + d.properties.GEOID})
+
+            .style("fill", d => {
+                return d.properties.fill
+            })
+            .style("stroke", "grey")
+            .style("opacity", 1)
+            .style("stroke-width", .2)
+            // .style("pointer-events", "none")
+
+        // let ctys = d3.selectAll(".counties")
+        let popup = d3.select(".popup")
+
+        counties.on("mouseover", (pointer_event, d) => {
+            svg.select(".p-" + d.properties.GEOID)
+            .style("stroke-width", 2)
+            .raise()
+
+            popup  
+                .style("opacity", 1)
+                .style("left", (pointer_event.x) + "px")
+                .style("top", (pointer_event.y) + "px")
+                // .html("In " + "<b>" + d.properties.NAMELSAD + "</b>, a total of " + "<b>" + d.properties.teen_birth_rate + " children are born per 1000 female population aged 15-19")
+                .html(function() {
+                    if (d.properties.teen_birth_rate != null) {
+                        return "In " + "<b>" + d.properties.NAMELSAD + ", " + d.properties.State + "</b>, a total of " + "<b>" + d.properties.teen_birth_rate + " children are born per 1000 female population aged 15-19"
+                    } else {
+                        return "Data unavailable for " + d.properties.NAMELSAD + ", " + d.properties.State
+                    }
+                })
+        })
+
+        counties.on("mouseout", (pointer_event, d) => {
+            svg.select(".p-" + d.properties.GEOID)
+                .style("stroke-width", 0.2)
+                // .style("opacity", 0.2)
+                .raise()
+            
+            popup
+                .style("opacity", 0)
+        })
+
+    }
+
+
+
+</script>
